@@ -5,6 +5,9 @@ declare global {
     interface Assertion {
       matchSnapshot(lang?: string, update?: boolean): Assertion;
     }
+    interface AssertStatic {
+      matchSnapshot(lang?: string, update?: boolean): Assertion;
+    }
   }
 }
 
