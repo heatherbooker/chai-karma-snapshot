@@ -3,10 +3,10 @@
 declare global {
   namespace Chai {
     interface Assertion {
-      matchSnapshot(lang?: string, update?: boolean): Assertion;
+      matchSnapshot(lang?: any, update?: boolean): Assertion;
     }
     interface AssertStatic {
-      matchSnapshot(lang?: string, update?: boolean): Assertion;
+      matchSnapshot(lang?: any, update?: boolean): Assertion;
     }
   }
 }
